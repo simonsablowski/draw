@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: rgb(255, 255, 255);
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	font-family: arial, helvetica, clean, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 0 40px;
+}
+
+a {
+	outline-style: none;
+	text-decoration: none;
+}
+
+#body, #copyright {
+	margin: 0 auto;
+	width: auto;
+}
+
+#title {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	margin: 0 20px 0 0;
+}
+
+#footer {
+	background-color: rgb(100, 100, 100);
+	bottom: 0;
+	height: 40px;
+	position: absolute;
+	width: 100%;
+}
+
+#copyright {
+	color: rgb(200, 200, 200);
+	padding: 10px 20px 0;
+}
+
+#copyright a {
+	color: rgb(175, 175, 175);
+}
